@@ -1,0 +1,11 @@
+# To find all html tags in string using Regular expression in JS
+
+const text = `hello <h1 style="color:red;" class="hello"> and <span style="color:red;">good</span> hello </h1> bad <p>hello</p>
+<br/>
+<hr />
+<bala> hello </bala></bala>`;
+
+
+Regular expression: /(<(?<first>\w+).*?>.*?<\/(\k<first>)>)|(<\w+\s?\/>)/g
+
+Link: https://regex101.com/r/KiXjnu/2
