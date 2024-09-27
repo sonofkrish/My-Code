@@ -9,3 +9,4 @@ const text = `hello <h1 style="color:red;" class="hello"> and <span style="color
 Regular expression: /(<(?<first>\w+).*?>.*?<\/(\k<first>)>)|(<\w+\s?\/>)/g
 
 Link: https://regex101.com/r/KiXjnu/2
+https://regex101.com/r/rjy8lG/1
